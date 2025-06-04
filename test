@@ -1,0 +1,19 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/N1quil/doorsentityloader/refs/heads/main/plamenneedstocomeback"))()
+
+spawnCustomEntity({
+    name = "DarkStalker",
+    modelId = 12345678, -- Replace with your uploaded entity RBX asset ID
+    speed = 1.8, -- Movement speed
+    soundId = 912345678, -- Looping ambient or growl
+    soundVolume = 1.2,
+
+    jumpscareImage = 1122334455, -- Optional face image
+    jumpscareSound = 2233445566, -- Optional sound
+    jumpscareDuration = 2,
+
+    canKill = true,
+    flickerLights = true,
+    cycles = 2, -- Number of hallway runs
+    waitPerRoom = 0.05,
+    waitBetweenCycles = 1
+})
